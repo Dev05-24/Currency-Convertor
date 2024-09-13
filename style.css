@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lemon&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("./images/bg.jpg") no-repeat center center/cover;
+}
+.container {
+  padding: 1rem;
+  border-radius: 1rem;
+  min-height: 40vh;
+  width: 30%;
+  color: white;
+  border-radius: 15px;
+}
+.head {
+  text-align: center;
+  font-size: 3.2rem;
+  font-family: "Lemon", serif;
+  outline: transparent;
+  font-weight: bolder;
+  -webkit-text-stroke: 1px rgb(13, 13, 137);
+  color: rgb(233, 233, 234);
+  text-shadow: 0 0 15px rgb(231, 233, 234);
+  transition: all 1s ease-in;
+}
+form {
+  margin: 2rem 0 1rem 0;
+}
+form select,
+button,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+form input {
+  height: 3rem;
+  padding-left: 1rem;
+}
+.amount p {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Lemon", serif;
+  margin-bottom: 2rem;
+  -webkit-text-stroke: 1px rgb(13, 13, 137);
+  color: rgb(233, 233, 234);
+}
+.amount input {
+  box-shadow: 0 0 20px rgb(223, 222, 223);
+  background: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+  font-size: 20px;
+  font-family: "Lemon", serif;
+}
+.from p {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  font-family: "Lemon", serif;
+  -webkit-text-stroke: 1px rgb(13, 13, 137);
+  color: rgb(233, 233, 234);
+}
+.to p {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  font-family: "Lemon", serif;
+  -webkit-text-stroke: 1px rgb(13, 13, 137);
+  color: rgb(233, 233, 234);
+}
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.dropdown i {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.6rem;
+  margin-top: 30px;
+}
+.select-container img {
+  max-width: 2rem;
+}
+.select-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: 8rem;
+  padding: 10px;
+  margin-top: 15px;
+  box-shadow: 0 0 15px rgb(223, 222, 223);
+  backdrop-filter: blur(8px);
+}
+.select-container select {
+  font-size: 1rem;
+  /* width: auto; */
+  font-weight: bolder;
+  color: white;
+  padding: 5px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+.select-container select option {
+  color: black;
+}
+.msg {
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: "Lemon", serif;
+  -webkit-text-stroke: 1px rgb(13, 13, 137);
+  color: rgb(233, 233, 234);
+}
+.btn-cont {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+form button {
+  padding: 15px;
+  width: 57%;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2px solid grey;
+  background: transparent;
+  backdrop-filter: blur(15px);
+  font-family: "Lemon", serif;
+  color: white;
+}
+form button:hover {
+  transform: scale(1.1);
+  font-size: 1.3rem;
+  width: 59%;
+  box-shadow: 0 0 20px rgb(196, 196, 208);
+  color: rgb(233, 233, 234);
+  transition: 0.5s;
+}
